@@ -180,4 +180,10 @@ Your sources have been sync'd successfully.
            name="glevand/coreos--portage-stable"
            remote="github-https"/>
 
+  <remove-project name="coreos/rkt" />
+  <project path="src/third_party/rkt"
+           name="glevand/coreos--rkt"
+           remote="github-https"
+           groups="minilayout" />
+
 </manifest>
